@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class BankingAppTest(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome()  # หรือ browser driver อื่นๆ
+        self.driver = webdriver.Chrome()  
         self.driver.get("https://your-banking-app-url.com") # แทนที่ด้วย URL แอปของคุณ
 
     def test_user_registration(self):
